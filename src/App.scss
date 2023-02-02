@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+$gutter: 1rem; //for primeflex grid system
+
+@import 'node_modules/primeflex/primeflex.scss';
+@import './assets/flags/flags.css';
+
+.layout-topbar-actions {
+    padding-left: 60px;
+}
+
+.layout-wrapper.layout-static .layout-topbar-actions {padding-left:230px;}
+
+.login-body .login-wrapper .login-panel > div > input, .login-body .login-wrapper .login-panel > input{
+    margin-bottom: 2px;
+}
+.p-datatable .p-column-header-content {
+    justify-content: center;
+}
+
+.p-datatable.p-datatable-gridlines .p-datatable-tbody > tr > td {
+    text-align: center;
+}
+
+.p-datatable.p-datatable-gridlines .p-datatable-tbody > tr > td > div {
+    justify-content: center;
+}
+.p-datatable .p-datatable-thead > tr > th {
+    width: 14%;
+    &:nth-child(1) {
+        width: 5%;
+    }
+    &:nth-child(3) {
+        width: 25%;
+    }
+    &:nth-child(6) {
+        width: 25%;
+    }
+}
+
+.overview-box .overview-info > h6 {
+    margin: 0 0 18px;
+}
+
+.overview-box .overview-info > h1 {
+    margin: 0 0 18px;
+}
+
+
+.icons {
+    display: block;
+    position: relative;
+    
+    &::after{
+        content: '';
+        position: absolute;
+        top: calc(50% - 20px);
+        left: calc(50% - 20px);
+        width: 40px;
+        height: 40px;
+        background: url('./assets/layout/images/play-btn.svg');
+    }
+}

@@ -1,33 +1,57 @@
 {
-  "name": "complex-admin",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test:unit": "vitest --environment jsdom --root src/",
-    "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e'",
-    "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
-  },
-  "dependencies": {
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
-  },
-  "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
-    "@vitejs/plugin-vue": "^4.0.0",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/test-utils": "^2.2.6",
-    "cypress": "^12.0.2",
-    "eslint": "^8.22.0",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-vue": "^9.3.0",
-    "jsdom": "^20.0.3",
-    "prettier": "^2.7.1",
-    "start-server-and-test": "^1.15.2",
-    "vite": "^4.0.0",
-    "vitest": "^0.25.6"
-  }
+	"name": "samsung-admin",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"test:unit": "vue-cli-service test:unit",
+		"lint": "vue-cli-service lint",
+		"node-sass": "sass --watch public/assets:public/assets"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-plugin-unit-jest": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/compiler-sfc": "3.1.5",
+		"@vue/test-utils": "^2.0.0-0",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-eslint": "^10.0.1",
+		"babel-jest": "^25.0.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-vue": "^7.0.0-0"
+	},
+	"dependencies": {
+		"@babel/core": "^7.16.5",
+		"@fullcalendar/core": "^5.7.2",
+		"@fullcalendar/daygrid": "^5.7.2",
+		"@fullcalendar/interaction": "^5.7.2",
+		"@fullcalendar/timegrid": "^5.7.2",
+		"@fullcalendar/vue3": "^5.7.2",
+		"@lottiefiles/vue-lottie-player": "^1.1.0",
+		"@vueup/vue-quill": "^1.0.0-beta.7",
+		"apexcharts": "^3.36.3",
+		"axios": "^0.21.1",
+		"chart.js": "3.3.2",
+		"core-js": "^3.6.5",
+		"i18n": "^0.13.4",
+		"moment": "^2.29.4",
+		"node-sass": "^7.0.1",
+		"primeflex": "2.0.0",
+		"primeicons": "4.1.0",
+		"primevue": "3.7.1",
+		"prismjs": "^1.9.0",
+		"quill-blot-formatter": "^1.0.5",
+		"quill-image-uploader": "^1.2.2",
+		"sass": "^1.37.5",
+		"sass-loader": "^7.0.1",
+		"validator": "^13.7.0",
+		"vue": "3.1.5",
+		"vue-apexcharts": "^1.6.2",
+		"vue-i18n": "^9.2.0",
+		"vue-router": "^4.0.11",
+		"vue3-apexcharts": "^1.4.1"
+	}
 }

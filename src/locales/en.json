@@ -1,0 +1,98 @@
+{
+  "message": "Hello!",
+  "address": {
+    "city" : "Kolkata"
+  },
+  "module":{
+    "title":{
+      "DFCMangement":"DFC Mangement",
+      "BannerMangement":"Banner Mangement",
+      "PopupMangement":"Popup Mangement",
+      "NFTMangement":"NFT Mangement",
+      "CardnewsMangement":"Cardnews Mangement",
+      "MediaPressMangement":"Media Press Mangement",
+      "GoogleformsMangement":"Google forms Mangement"
+    }
+  },
+  "search": {
+    "title": "Search",
+    "label": {
+      "name": "Name",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "startDate": "Start Date",
+      "lastDate": "Last Date"
+    },
+    "placeholder": {
+      "search": "Search",
+      "date": "YYYY.MM.DD"
+    }
+  },
+  "table": {
+    "userlist": {
+      "heading": "User List",
+      "thead": {
+        "id": "Id",
+        "name": "Name",
+        "email":"Email",
+        "mobile": "Mobile",
+        "createdDate": "Created Date",
+        "actions": "Actions"
+      }
+    }
+  },
+  "button": {
+    "reset": "Reset",
+    "back": "Go Back",
+    "search": "Search",
+    "new": "New",
+    "downloadExcel": "Download Excel",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "today": "Today",
+    "lastWeek": "Last week",
+    "lastMonth": "Last month",
+    "last6Months": "Last 6 months",
+    "lastYear": "Last year",
+    "createUser": "Create User",
+    "Cancle": "Cancle"
+  },
+  "form": {
+    "label": {
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "startDate": "Start Date",
+      "lastDate": "Last Date"
+    },
+    "placeholder": {
+      "search": "Search",
+      "date": "YYYY.MM.DD",
+      "enter": "Enter",
+      "name": "Enter name",
+      "email": "Enter email",
+      "mobile": "Enter mobile",
+      "password": "Enter Password",
+      "confirmPassword": "Enter confirm password"
+    }
+  },
+  "page": {
+    "user": {
+      "addUser": {
+        "heading":"Add new user"
+      },
+      "editUser": {
+        "heading":"Correction user"
+      },
+      "viewUser": {
+        "heading":"User more Information"
+      }
+    }
+  },
+
+  "User":"User Management"
+}

@@ -1,0 +1,7 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/locales",
+    "public/assets/sass/theme/designer/components/messages"
+  ],
+  "vue-i18n.i18nPaths": "src\\locales"
+}
