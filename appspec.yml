@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/vue-js-test
-hooks:
-  BeforeInstall:
-    - location: vue-install.sh
-      timeout: 300
-      runas: root
+#hooks:
+#  BeforeInstall:
+#    - location: vue-install.sh
+#      timeout: 300
+#      runas: root
