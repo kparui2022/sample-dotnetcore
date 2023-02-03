@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/new-vue
+    destination: /var/www/11-db-demo
 #hooks:
 #  BeforeInstall:
 #    - location: vue-install.sh
