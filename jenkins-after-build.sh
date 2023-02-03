@@ -1,5 +1,6 @@
 #!/bin/bash
-chown -R ubuntu:ubuntu /var/www/11-db-demo/
-chmod -R 777 /var/www/11-db-demo/
-rm -rf /var/www/11-db-demo/* .*
+sudo chown -R ubuntu:ubuntu /var/www/11-db-demo/
+sudo chmod -R 777 /var/www/11-db-demo/
+sudo rm -rf /var/www/11-db-demo/.*
+sudo rm -rf /var/www/11-db-demo/*
 exit
