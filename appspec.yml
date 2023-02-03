@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/vue-js-test
+    destination: /var/www/html/new-vue
 #hooks:
 #  BeforeInstall:
 #    - location: vue-install.sh
