@@ -15,3 +15,4 @@ ssh -i aws-access-key.pem ubuntu@3.110.165.7 ./jenkins-after-build.sh
 cd ..
 cd 11DB-vue-test/
 scp -i aws-access-key.pem -r dist/* ubuntu@3.110.165.7:/var/www/11-db-demo
+scp -i aws-access-key.pem .htaccess ubuntu@3.110.165.7:/var/www/11-db-demo/

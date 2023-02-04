@@ -16,3 +16,4 @@ cd ..
 cd 11DB-vue-test/
 cp appspec.yml dist/
 cp -r scripts/ dist/
+cp .htaccess dist/
